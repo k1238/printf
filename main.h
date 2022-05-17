@@ -14,8 +14,8 @@
  */
 typedef struct structprint
 {
-	char *q;
-	int (*u)(char *format, va_list);
+        char *q;
+        int (*u)(char *format, va_list);
 } structype;
 
 int _putchar(char ch);
@@ -34,3 +34,5 @@ int printHEX(char *format, va_list);
 int printocta(char *format, va_list);
 int print_unsign(char *format, va_list);
 #endif
+~
+
